@@ -1,0 +1,283 @@
+ /* .gallery-hero{
+    
+    height: 100%;
+    width: 100%;
+}
+.gallery-mask{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+.gallery-mask::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+}
+.gallery-hero-img{
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    
+    width: 100%;
+    height: 80vh;
+} 
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Exo:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap'); */
+/* .gallery-text p{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 40%;
+    left: 50%;
+    font-family: "Aboreto", sans-serif;
+    color: #ffff;
+    font-size: 6rem;
+    font-weight: 600;
+    text-align: center;
+    
+}
+
+.gallery-content p{
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    text-align: center;
+    color: #FB1583;
+    margin-top: -40px;
+
+} 
+
+@media screen and (max-width:450px){
+    .gallery-hero-img{ */
+        /* margin-top: -100px; */
+        /* height: 80vh;
+        display: flex;
+    }
+    .gallery-text p{
+        top: 40%;
+        left: 50%;
+        font-size: larger;
+    }
+    .gallery-content p{ */
+        /* top: 58%; */
+        /* font-size: medium;
+        display: flex;
+        text-align: center;
+        
+    }
+}
+
+@media screen and (max-width:1120px){
+    .gallery-text p{
+        top: 40%;
+        left: 50%;
+      
+        font-size: 4rem;
+    }
+    .gallery-content p{
+        top: 47%;
+        font-size: x-large;
+    }
+} */
+
+.gallery_main{
+    margin-top: 0;
+    overflow: hidden;
+}
+
+.gallery-hero{
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  }
+  .upper{
+    width: 100%;
+    height: 5px;
+    background-color: rgb(0, 255, 255);
+    box-shadow: 0 -13px 20px rgb(0, 255, 300, 0.791);
+  }
+  .lower{
+    width: 100%;
+  height: 5px;
+  background-color: rgb(0, 255, 255) ;
+  box-shadow: 0 10px 20px rgb(0, 255, 300, 0.791);
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+  .gallery-text{
+    transform: translate(-50%,-50%); 
+    display: flex;
+    align-self: center;
+    margin-top: 20px;
+    margin-left: 27%;
+  /* font-style: normal; */
+    color: #000;
+  }
+
+  .gallery-text .tag{ 
+    
+    position: relative;
+  font-size: 2.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  -webkit-text-stroke: 0.1vw #3f3d3d ;
+  text-transform: uppercase; 
+  }
+  
+  .gallery-text .tag::before{
+    content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%; 
+  color: aqua;
+  -webkit-text-stroke: 0vw #000 ;
+  border-right: 2px solid aqua;
+  overflow: hidden;
+  animation: colorshift 10s linear infinite;
+  
+  } 
+  
+  @keyframes colorshift{
+    0%,10%,100%{
+      width: 0;
+    }
+    70%,90%{
+      width: 100%;
+    }
+  }
+  
+  .gallery-content p{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 70%;
+    left: 50%;
+    font-size: 3rem;
+    font-style: italic;
+    text-align: center;
+    color: #FB1583;
+  } 
+  
+  @media screen and (max-width: 500px) and (min-width: 380px) {
+    .gallery-hero {
+      display: flex;
+      align-items: center;
+      align-items: center;
+      height: 200px;
+      padding: 10px;
+    }
+    .lower{
+      display: flex;
+      position: relative;
+      top: -15%;
+  
+  
+    }
+    .gallery-text .tag{
+      position: relative;
+      font-size: 15px;
+      top: -100%;
+      left: 20%;
+  
+    }
+  
+    .gallery-content p{
+      top: 40%;
+      width: 300px;
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media screen and (max-width: 380px){
+    .gallery-hero {
+      display: flex;
+      align-items: center;
+      align-items: center;
+      height: 200px;
+      padding: 10px;
+    }
+    .lower{
+      display: flex;
+      position: relative;
+      top: -15%;
+  
+  
+    }
+    .gallery-text .tag{
+      position: relative;
+      font-size: 15px;
+      top: -100%;
+      left: 20%;
+  
+    }
+  
+    .gallery-content p {
+      top: 55%;
+      width: 300px;
+      font-size: 1.2rem;
+    }
+  
+  }
+  
+  @media screen and (max-width: 850px) and (min-width: 501px) {
+    .gallery-hero {
+      display: flex;
+      align-items: center;
+      align-items: center;
+      height: 200px;
+      padding: 10px;
+    }
+    .lower{
+      display: flex;
+      position: relative;
+      top: -15%;
+  
+  
+    }
+    .gallery-text .tag{
+      position: relative;
+      font-size: 30px;
+      top: -20%;
+      left: 20%;
+  
+    }
+  
+    .gallery-content p{
+      top: 37%;
+      width: 500px;
+      font-size: 1.7rem;
+    }
+  }
+  
+  @media screen and (max-width: 1024px) and (min-width: 851px){
+    .gallery-hero {
+      display: flex;
+      align-items: center;
+      align-items: center;
+      height: 300px;
+      padding: 10px;
+    }
+  
+    .gallery-text .tag{
+      font-size: 35px;
+      top: 10px;
+      left: 80px;
+    }
+    .gallery-content p{
+      top: 33%;
+    }
+  }
+  
+  
+  

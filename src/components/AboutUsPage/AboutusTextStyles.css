@@ -1,0 +1,73 @@
+.about-goal{
+    text-align: center; 
+    padding-top: 2rem; 
+    font-size: 1.5rem; 
+    font-weight: bold;
+}
+
+.about-head{
+    text-align: center; 
+    padding-top: 2rem; 
+    font-size: 2rem; 
+    color: #FB1583; 
+    font-family: "Racing Sans One";
+    font-weight: 400;
+}
+
+.details{
+    text-align: center; 
+    font-size: 1.3rem; 
+    margin: 2rem 5rem 4rem 4rem; 
+    line-height: 40px;
+}
+
+@media screen and (width <= 500px){
+    .about-goal{
+        font-size: 1.1rem;
+        padding-top: 2rem;
+    }
+    .about-head{
+        padding-top: 2rem; 
+        font-size: 1.8rem; 
+        font-weight: 400;
+    }
+    .details{
+        font-size: 1.1rem; 
+        margin: 2rem 5rem 4rem 4rem; 
+        line-height: 30px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px){
+    .details{
+        font-size: 1.5rem; 
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px){
+    .about-goal{
+        font-size: 1.6rem;
+    }
+    .about-head{
+        font-size: 2.5rem; 
+        font-weight: 500;
+    }
+    .details{
+        font-size: 1.4rem;
+        line-height: 35px;
+    }
+}
+
+@media screen and (width > 1280px){
+    .about-goal{
+        font-size: 1.8rem;
+    }
+    .about-head{
+        font-size: 2.7rem; 
+        font-weight: 500;
+    }
+    .details{
+        font-size: 1.4rem;
+        line-height: 35px;
+    }
+}

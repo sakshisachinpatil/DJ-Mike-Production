@@ -1,0 +1,428 @@
+.contact-container{
+  display: flex;
+  margin: auto;
+  align-content: center;
+  justify-content: center;
+  height: 100%;
+  width: 80%;
+  background: linear-gradient(
+    180deg,
+    rgba(1, 136, 139, 0.74),
+    rgba(255, 255, 255, 0.74)
+  );
+  padding: 20px;
+  margin-bottom: 2rem;
+  border-radius: 20px;
+  
+}
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  background: rgba(255, 255, 255, 0.243);
+  backdrop-filter: blur(20px);
+  padding: 20px 20px;
+  border-radius: 10px;
+}
+.contact-title{
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  font-size: x-large;
+  color: black;
+}
+
+.label-text{
+  font-family: "Raleway", sans-serif;
+  font-size: larger;
+  font-weight: 500;
+  color: black;
+}
+input{
+  width: 500px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+}
+
+textarea{
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  font-size: small;
+}
+
+.contact-btn{
+  display: flex;
+  margin: auto;
+  width: fit-content;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 400;
+  padding: 8px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+}
+
+.contact-btn:hover{
+  background: rgb(32, 32, 32);
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+/* ---------------------------------------------------------------------- */
+
+.hero_main{
+  margin-top: 0;
+  overflow: hidden;
+}
+
+.text{
+  margin-top: 100px;
+  font-size: 3rem;
+  text-align: center;
+  color: #FB1583;
+  /* color: hsl(0, 0%, 28%); */
+  font-family: "Raleway", sans-serif;
+  transition: 0.5s ease-in-out;
+}
+/* .text:hover span:nth-child(1) {
+  margin-right: 5px;
+}
+.text:hover span:nth-child(2) {
+  margin-left: 30px;
+}
+.text span:hover{
+    color: #fff;
+    text-shadow: 0 0 8px #fff, 0 0 20px #fff, 0 0 40px #fff;
+} */
+
+.hero_r{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  /* margin-right: 30px; */
+}
+
+.hero_r .get{
+  color: black;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  font-size: 3.5rem;
+  letter-spacing: 3px;
+  font-weight: 600;
+  display: flex;
+  position: relative;
+  margin-top: -70px;
+}
+
+.reach{
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+  display: flex;
+  position: relative;
+  margin-top: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+.hero_r .contact-content{
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  display: flex;
+  margin-top: 50px;
+  color: black;
+  font-size: 2rem;
+  text-align: center;
+  position: relative;
+  line-height: 35px;
+}
+
+.hero_r .get{
+  font-size: 2rem;
+}
+
+.hero_main .text{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+
+/* @media screen  and (max-width: 640px){
+  .contact-container{
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-gap: 25px;
+    height: 60%;
+    width: 60%;
+  }
+  .label-text{
+    font-size: medium;
+    font-weight: 400;
+  }
+  input{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    border: none;
+  }
+  .contact-form{
+    gap: 0.8rem;
+  }
+  textarea{
+    height: 70px;
+  }
+
+  .contact-btn:hover{
+    background: rgba(85, 205, 205, 0.87);
+    border: 3px solid black;
+    color: black;
+    transition: 0.3s;
+  }
+  .contact-btn{
+    padding: 4px;
+  }
+} */
+
+@media screen and (width <= 500px){
+  .hero_main .text{
+    font-size: 2rem;
+  }
+  .contact-container{
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-gap: 5rem;
+    width: 90%;
+    height: 90%;
+  }
+  .contact-title{
+    font-size: 1.5rem;
+  }
+  .contact-form{
+    gap: 0.5rem;
+    width: 100%;
+  }
+  .label-text{
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  textarea{
+    font-size: 0.5rem;
+    padding: 5px;
+  }
+  ::placeholder{
+    font-size: 0.7rem;
+  }
+  input{
+    padding: 5px;
+    width: 100%;
+  }
+  .contact-btn{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 10px;
+    height: fit-content;
+  }
+  .contact-btn:hover{
+    background: rgba(85, 205, 205, 0.87);
+    border: 3px solid black;
+    color: black;
+    transition: 0.3s;
+  }
+  .hero_r .get{
+    font-size: 2rem;
+    
+  }
+  .hero_r .reach{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .hero_r .contact-content{
+    font-size: 1.5rem;
+    line-height: 30px;
+  }
+}
+
+
+@media screen and (min-width: 500px) and (max-width: 800px){
+  .contact-container{
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-gap: 5rem;
+    width: 90%;
+    height: 90%;
+  }
+  .contact-title{
+    font-size: 1.5rem;
+  }
+  .contact-form{
+    gap: 0.5rem;
+    width: 100%;
+  }
+  .label-text{
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  textarea{
+    font-size: 0.5rem;
+    padding: 5px;
+  }
+  ::placeholder{
+    font-size: 0.8rem;
+  }
+  input{
+    padding: 5px;
+    width: 100%;
+    height: 35px;
+  }
+  .contact-btn{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 10px;
+    height: fit-content;
+  }
+  .contact-btn:hover{
+    background: rgba(85, 205, 205, 0.87);
+    border: 3px solid black;
+    color: black;
+    transition: 0.3s;
+  }
+  .hero_r .get{
+    font-size: 2rem;
+    
+  }
+  .hero_r .reach{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .hero_r .contact-content{
+    font-size: 1.5rem;
+    line-height: 30px;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+  .contact-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2rem;
+    width: 90%;
+    height: 90%;
+  }
+  .contact-title{
+    font-size: 1.5rem;
+  }
+  .contact-form{
+    gap: 0.5rem;
+    width: 100%;
+  }
+  .label-text{
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  textarea{
+    font-size: 0.5rem;
+    padding: 5px;
+  }
+  ::placeholder{
+    font-size: 0.8rem;
+  }
+  input{
+    padding: 5px;
+    width: 100%;
+    height: 35px;
+  }
+  .contact-btn{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 10px;
+    height: fit-content;
+  }
+  .contact-btn:hover{
+    background: rgba(85, 205, 205, 0.87);
+    border: 3px solid black;
+    color: black;
+    transition: 0.3s;
+  }
+  .hero_r .get{
+    font-size: 2rem;
+    margin-top: 0.5rem;
+  }
+  .hero_r .reach{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .hero_r .contact-content{
+    font-size: 1.5rem;
+    line-height: 30px;
+  }
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1280px){
+  .contact-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2rem;
+    width: 90%;
+    height: 90%;
+  }
+  .contact-title{
+    font-size: 1.5rem;
+  }
+  .contact-form{
+    gap: 0.5rem;
+    width: 100%;
+  }
+  .label-text{
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  textarea{
+    font-size: 0.5rem;
+    padding: 5px;
+  }
+  ::placeholder{
+    font-size: 0.8rem;
+  }
+  input{
+    padding: 5px;
+    width: 100%;
+    height: 35px;
+  }
+  .contact-btn{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 10px;
+    height: fit-content;
+  }
+  .contact-btn:hover{
+    background: rgba(85, 205, 205, 0.87);
+    border: 3px solid black;
+    color: black;
+    transition: 0.3s;
+  }
+  .hero_r .get{
+    font-size: 2rem;
+    margin-top: 0.5rem;
+  }
+  .hero_r .reach{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .hero_r .contact-content{
+    font-size: 1.5rem;
+    line-height: 30px;
+  }
+}
+

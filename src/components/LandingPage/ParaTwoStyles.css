@@ -1,0 +1,233 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+.para-two{
+    margin-top: 3rem;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    
+}
+
+.box{
+    width: 950px;
+    height: 230px;
+    background: repeating-conic-gradient(from var(--a), #FB1583 0%, #FB1583 5%, transparent 5%, transparent 40%, #FB1583 50%);
+    position: relative;
+    animation: animate 4s linear infinite;
+    border-radius: 20px;
+}
+
+@property --a{
+    syntax: '<angle>';
+    inherits: false;
+    initial-value: 0deg;
+}
+
+@keyframes animate{
+    0%{
+        --a: 0deg;
+    }
+    100%{
+        --a: 360deg;
+    }
+}
+
+.box::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: repeating-conic-gradient(from var(--a), #20B9C3 0%, #20B9C3 5%, transparent 5%, transparent 40%, #20B9C3 50%);
+    animation: animate 4s linear infinite;
+    animation-delay: -1s;
+    border-radius: 20px;
+}
+
+.box::after{
+    
+    position: absolute;
+    inset: 4px;
+    background: #000000;
+    border-radius: 15px;
+    border: 6px solid #1d1d1e;
+    content: attr(para-two-subhead);
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.para-two{
+    display: block;
+    margin: auto;
+    margin-top: 3rem;
+    width: 900px;
+    height: 250px;
+    padding: 1rem;
+    box-shadow: 0 5px 5px #fb158484;
+    border-radius: 10px;
+    padding-bottom: 1rem;
+}    
+
+.para-two:hover{
+    box-shadow: 0 5px 5px #20B9C3; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+.para-two-head{
+    font-family: "Racing Sans One", sans-serif;
+    font-weight: 400;
+    color: #20B9C3;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+.para-two-subhead{
+    font-family: "Raleway", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+
+.para-two-content{
+    font-family: "Raleway", sans-serif;
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+@media screen and (max-width: 740px){
+    .para-two{
+        margin: 5rem 2rem;
+        max-width: 90%;
+        height: 100%;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (width <= 500px) {
+    .para-two{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-bottom: 1rem;
+    }
+    .para-two:hover{
+        box-shadow: 0 5px 5px #20B9C3; 
+    }
+    .para-two-head{
+        font-weight: 300;
+        font-size: 2rem;
+    }
+    .para-two-subhead{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    .para-two-content{
+        font-size: 1rem;
+        line-height: 20px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+    .para-two{
+        width: 90%;
+        display: block;
+        margin: auto;
+        padding-bottom: 1rem;
+    }
+    .para-two:hover{
+        box-shadow: 0 5px 5px #20B9C3; 
+    }
+    .para-two-head{
+        font-weight: 300;
+        font-size: 2.3rem;
+    }
+    .para-two-subhead{
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+    .para-two-content{
+        font-size: 1.3rem;
+        line-height: 35px;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+    .para-two{
+        width: 90%;
+        display: block;
+        margin: auto;
+        padding-bottom: 1rem;
+    }
+    .para-two:hover{
+        box-shadow: 0 5px 5px #20B9C3; 
+    }
+    .para-two-head{
+        font-weight: 300;
+        font-size: 2.5rem;
+    }
+    .para-two-subhead{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    .para-two-content{
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .para-two{
+        width: 90%;
+        display: block;
+        margin: auto;
+        padding-bottom: 1rem;
+    }
+    .para-two:hover{
+        box-shadow: 0 5px 5px #20B9C3; 
+    }
+    .para-two-head{
+        font-weight: 300;
+        font-size: 3rem;
+    }
+    .para-two-subhead{
+        font-size: 2.5rem;
+        font-weight: 500;
+    }
+    .para-two-content{
+        font-size: 1.8rem;
+        line-height: 40px;
+    }
+}
+
+@media screen and (width > 1280px){
+    .para-two{
+        width: 90%;
+        display: block;
+        margin: auto;
+        padding-bottom: 1rem;
+    }
+    .para-two:hover{
+        box-shadow: 0 5px 5px #20B9C3; 
+    }
+    .para-two-head{
+        font-weight: 400;
+        font-size: 3.5rem;
+    }
+    .para-two-subhead{
+        font-size: 3rem;
+        font-weight: 500;
+    }
+    .para-two-content{
+        font-size: 1.8rem;
+        line-height: 40px;
+
+    }
+}

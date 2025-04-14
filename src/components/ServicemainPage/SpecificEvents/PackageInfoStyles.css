@@ -1,0 +1,59 @@
+.package-info{
+     margin-top: 5rem;
+}
+
+.package-info p{
+    font-family: "Raleway", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    color: #20B9C3;
+}
+
+@media screen and (width <= 500px){
+    .package-info{
+        padding: 3rem 3rem 1rem 3rem;
+   }
+    .package-info p{
+      font-size: 1rem;
+      text-align: center;
+    }
+  }
+
+  @media screen and (min-width: 500px) and (max-width: 800px){
+    .package-info{
+      padding: 1rem 3rem;
+    }
+  .package-info p{
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  }
+
+  @media screen and (min-width: 800px) and (max-width: 1024px){
+    .package-info{
+      padding: 2rem 3rem;
+    }
+    .package-info p{
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  }
+
+  @media screen and (min-width: 1024px) and (max-width: 1280px){
+    .package-info{
+      padding: 4rem 3rem 2rem 3rem;
+    }
+    .package-info p{
+      font-size: 1.7rem;
+      text-align: center;
+    }
+  }
+  @media screen and (min-width: 1280px) and (max-width: 1320px){
+    .package-info{
+      padding: 2rem 3rem ;
+    }
+    .package-info p{
+      font-size: 1.9rem;
+      text-align: center;
+    }
+  }

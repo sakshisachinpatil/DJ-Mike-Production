@@ -1,0 +1,433 @@
+.corporatecard-container{
+    max-width: 1180px;
+    margin: 3rem auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    padding: 2rem 1rem;
+
+}
+.corporate-card{
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 1rem 2rem;
+    
+}
+.corporate-card:hover{
+    background: #e5e4e2dc;
+
+    & .corporate-title p{
+        color: #FB1583;
+    }
+    & .corporate-details p {
+        color: black;
+    } 
+    & .corporate-details li{
+        color: black;
+    }
+    & .corporate-tag{
+        background: black;
+    }
+    & .corporate-tag p{
+        color: white;
+    }
+    & .read-button{
+        background: transparent;
+        border-color: black;
+        color: black;
+    }
+   
+} 
+
+/* .corporate-title{
+    display: inline-flex;
+    flex: 1;
+    flex-direction: row;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@400;700&display=swap');
+.corporate-title p{
+    font-family: "Stardos Stencil", system-ui;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: left;
+    text-align: center;
+    color: #FB1583;
+}
+.corporate-details p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.corporate-details li{
+    color: white;
+}
+.corporate-tag{
+  
+    background-color: white;
+    width: fit-content;
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+.corporate-tag p{
+    text-align: center;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+.read-button{
+    padding: 5px;
+    font-size: 0.8rem;
+    border: 2px solid #20B9C3;
+    background: transparent;
+    color: #20B9C3;
+    display: flex;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: end;
+    cursor: pointer;
+}
+
+/* @media screen and (max-width: 740px){
+    .corporatecard-container{
+        max-width: 80%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+} */
+
+@media screen and (width <= 400px){
+    .corporatecard-container{
+        max-width: 80%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+    .corporate-card:hover{
+        background: #e5e4e2dc;
+
+        & .corporate-title p{
+            color: #FB1583;
+        }
+        & .corporate-details p {
+            color: black;
+        } 
+        & .corporate-details li{
+            color: black;
+        }
+        & .corporate-tag{
+            background: black;
+        }
+        & .corporate-tag p{
+            color: white;
+        }
+        & .read-button{
+            background: transparent;
+            border-color: black;
+            color: black;
+        }
+    }
+    .corporate-title p{
+        font-family: "Stardos Stencil", system-ui;
+        font-weight: 500;
+        font-size: 1.3rem;
+    }
+    .corporate-details p{
+        font-size: 1rem;
+    }
+    .corporate-tag{
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        border-radius: 10px;
+    }
+    .corporate-tag p{
+        padding: 5px;
+        color: black;
+        font-weight: bold;
+        font-size: 0.8rem;
+    }
+    .corporate-details li{
+        text-align: justify;
+        font-size: 0.8rem;
+    }
+}
+@media screen and (min-width: 400px) and (max-width: 500px){
+    .corporatecard-container{
+        max-width: 80%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+    .corporate-card:hover{
+        background: #e5e4e2dc;
+
+        & .corporate-title p{
+            color: #FB1583;
+        }
+        & .corporate-details p {
+            color: black;
+        } 
+        & .corporate-details li{
+            color: black;
+        }
+        & .corporate-tag{
+            background: black;
+        }
+        & .corporate-tag p{
+            color: white;
+        }
+        & .read-button{
+            background: transparent;
+            border-color: black;
+            color: black;
+        }
+    }
+    .corporate-title p{
+        font-family: "Stardos Stencil", system-ui;
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+    .corporate-details p{
+        font-size: 1rem;
+    }
+    .corporate-tag{
+        margin-top: 0.6rem;
+        margin-bottom: 0.6rem;
+        border-radius: 10px;
+    }
+    .corporate-tag p{
+        padding: 5px;
+        color: black;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    .corporate-details li{
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px){
+    .corporatecard-container{
+        max-width: 80%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+    .corporate-card:hover{
+        background: #e5e4e2dc;
+
+        & .corporate-title p{
+            color: #FB1583;
+        }
+        & .corporate-details p {
+            color: black;
+        } 
+        & .corporate-details li{
+            color: black;
+        }
+        & .corporate-tag{
+            background: black;
+        }
+        & .corporate-tag p{
+            color: white;
+        }
+        & .read-button{
+            background: transparent;
+            border-color: black;
+            color: black;
+        }
+    }
+    .corporate-title p{
+        font-family: "Stardos Stencil", system-ui;
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+    .corporate-details p{
+        font-size: 1.3rem;
+    }
+    .corporate-tag{
+        margin-top: 0.6rem;
+        margin-bottom: 0.6rem;
+        border-radius: 10px;
+    }
+    .corporate-tag p{
+        padding: 5px;
+        color: black;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    .corporate-details li{
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1024px){
+    .corporatecard-container{
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+    .corporate-card:hover{
+        background: #e5e4e2dc;
+
+        & .corporate-title p{
+            color: #FB1583;
+        }
+        & .corporate-details p {
+            color: black;
+        } 
+        & .corporate-details li{
+            color: black;
+        }
+        & .corporate-tag{
+            background: black;
+        }
+        & .corporate-tag p{
+            color: white;
+        }
+        & .read-button{
+            background: transparent;
+            border-color: black;
+            color: black;
+        }
+    }
+    .corporate-title p{
+        font-family: "Stardos Stencil", system-ui;
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+    .corporate-details p{
+        font-size: 1.3rem;
+    }
+    .corporate-tag{
+        margin-top: 0.6rem;
+        margin-bottom: 0.6rem;
+        border-radius: 10px;
+    }
+    .corporate-tag p{
+        padding: 5px;
+        color: black;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    .corporate-details li{
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px){
+    .corporatecard-container{
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+    .corporate-card:hover{
+        background: #e5e4e2dc;
+
+        & .corporate-title p{
+            color: #FB1583;
+        }
+        & .corporate-details p {
+            color: black;
+        } 
+        & .corporate-details li{
+            color: black;
+        }
+        & .corporate-tag{
+            background: black;
+        }
+        & .corporate-tag p{
+            color: white;
+        }
+        & .read-button{
+            background: transparent;
+            border-color: black;
+            color: black;
+        }
+    }
+    .corporate-title p{
+        font-family: "Stardos Stencil", system-ui;
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+    .corporate-details p{
+        font-size: 1.3rem;
+    }
+    .corporate-tag{
+        margin-top: 0.6rem;
+        margin-bottom: 0.6rem;
+        border-radius: 10px;
+    }
+    .corporate-tag p{
+        padding: 5px;
+        color: black;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    .corporate-details li{
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1320px){
+    .corporatecard-container{
+        max-width: 95%;
+        margin: auto;
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+    .corporate-card:hover{
+        background: #e5e4e2dc;
+
+        & .corporate-title p{
+            color: #FB1583;
+        }
+        & .corporate-details p {
+            color: black;
+        } 
+        & .corporate-details li{
+            color: black;
+        }
+        & .corporate-tag{
+            background: black;
+        }
+        & .corporate-tag p{
+            color: white;
+        }
+        & .read-button{
+            background: transparent;
+            border-color: black;
+            color: black;
+        }
+    }
+    .corporate-title p{
+        font-family: "Stardos Stencil", system-ui;
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+    .corporate-details p{
+        font-size: 1.3rem;
+    }
+    .corporate-tag{
+        margin-top: 0.6rem;
+        margin-bottom: 0.6rem;
+        border-radius: 10px;
+    }
+    .corporate-tag p{
+        padding: 5px;
+        color: black;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    .corporate-details li{
+        text-align: justify;
+    }
+}
+

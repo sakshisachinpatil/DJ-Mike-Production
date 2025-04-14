@@ -1,13 +1,119 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: "Mukta", sans-serif;
+}
+body{
+  background: black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1, h4, p,
+a{
+  color: white;
+  text-decoration: none;
 }
+ul{
+  list-style-type: none;
+}
+
+.btn{
+  padding: 10px 30px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: transparent;
+  color: #20B9C3;
+  border: 3px solid #20B9C3;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 7px;
+}
+.btn:hover{
+  background: rgba(3, 38, 38, 0.87);
+  color: white;
+  transition: 0.3s;
+}
+
+@media screen and (width <= 500px){
+  .btn:hover{
+    background: rgba(3, 38, 38, 0.87);
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 800px){
+  .btn:hover{
+    background: rgba(3, 38, 38, 0.87);
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1024px){
+  .btn:hover{
+    background: rgba(3, 38, 38, 0.87);
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1280px){
+  .btn:hover{
+    background: rgba(3, 38, 38, 0.87);
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+.about-head{
+  font-family: "Racing Sans One", sans-serif;
+  font-weight: 400;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Marko+One&display=swap');
+.journey p{
+  font-family: "Marko One", serif;
+  color: #FB1583;
+  font-size: 2.4rem;
+  font-weight: 300;
+}
+@media screen and (width <= 500px){
+  .journey p{
+  font-size: 2rem;
+  font-weight: 200;
+}
+}
+@media screen and (min-width: 800px) and (max-width: 1024px){
+  .journey p{
+  font-size: 3rem;
+  font-weight: 200;
+}
+}
+@media screen and (min-width: 1024px) and (max-width: 1280px){
+  .journey p{
+  font-size: 3.2rem;
+  font-weight: 200;
+}
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.para-one-head, 
+.para-one-content,
+.details,
+.about-goal{
+  font-family: "Raleway", sans-serif;
+}
+
+

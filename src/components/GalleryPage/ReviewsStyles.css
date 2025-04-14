@@ -1,0 +1,37 @@
+.reviews-container{
+    width: 100%;
+    max-height: 100%;
+    background: rgba(34, 33, 33, 0.842);
+    margin-top: 5rem;
+    padding-bottom: 2rem;
+    
+}
+
+.reviews-container .reviews-heading{
+    padding-top: 1rem;
+    text-align: center;
+    color: #20B9C3;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+}
+
+.reviews-container .reviews-placeholder{
+    background: rgb(211, 211, 211);
+    padding: 0.5rem;
+    
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    border-radius: 5px;
+    height: auto;
+}
+
+.reviews-placeholder .reviews-content{
+    color: black;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+    font-family: 'Lucida Sans Regular';
+    
+}

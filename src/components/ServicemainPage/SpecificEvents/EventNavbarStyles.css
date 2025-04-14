@@ -1,0 +1,210 @@
+.eventnav-container{
+    /* display: flex;
+    flex: 1;
+    flex-direction: row; */
+    background: black;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: auto;
+    max-height: 100px;
+}
+
+.event-menu {
+    max-width: 1140px;
+    text-decoration: none;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 2rem;
+}
+
+.event-menu li{
+    padding: 0 3rem;
+    justify-content: center;
+    width: 100%;
+}
+
+.event-menu li a{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+    font-family: "Mukta", sans-serif;
+}
+
+.event-menu li hr{
+    width: 100%;
+    border: 3px solid #20B9C3;
+}
+
+.event-menu li a:hover{
+    color: #20B9C3;
+    cursor: pointer;
+}
+
+
+@media screen and (width <= 400px){
+    .event-menu {
+        max-width: 40%;
+        text-decoration: none;
+        color: white;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1rem;
+    }
+    .event-menu li{
+        padding: 0 1rem;
+        width: 80%;
+    }
+    .event-menu li a{
+        font-size: 0.9rem;
+        font-weight: 400;
+        color: white;
+        font-family: "Mukta", sans-serif;
+    }
+    .event-menu li hr{
+        border: 1.5px solid #20B9C3;
+    }
+    .event-menu li a:hover{
+        color: #20B9C3;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width: 400px) and (max-width: 500px){
+    .event-menu {
+        max-width: 40%;
+        text-decoration: none;
+        color: white;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1rem;
+    }
+    .event-menu li{
+        padding: 0 1.5rem;
+        width: 80%;
+    }
+    .event-menu li a{
+        font-size: 1rem;
+        font-weight: 400;
+        color: white;
+        font-family: "Mukta", sans-serif;
+    }
+    .event-menu li hr{
+        border: 1.5px solid #20B9C3;
+    }
+    .event-menu li a:hover{
+        color: #20B9C3;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px){
+    .event-menu {
+        max-width: 100%;
+        text-decoration: none;
+        color: white;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1.5rem;
+    }
+    .event-menu li{
+        padding: 0 2rem;
+        width: 80%;
+    }
+    .event-menu li a{
+        font-size: 1rem;
+        font-weight: 400;
+        color: white;
+        font-family: "Mukta", sans-serif;
+    }
+    .event-menu li hr{
+        border: 1.5px solid #20B9C3;
+    }
+    .event-menu li a:hover{
+        color: #20B9C3;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 1024px){
+    .event-menu {
+        max-width: 100%;
+        text-decoration: none;
+        color: white;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1.5rem;
+    }
+    .event-menu li{
+        padding: 0 2rem;
+        width: 80%;
+    }
+    .event-menu li a{
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: white;
+        font-family: "Mukta", sans-serif;
+    }
+    .event-menu li hr{
+        border: 1.5px solid #20B9C3;
+    }
+    .event-menu li a:hover{
+        color: #20B9C3;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px){
+    .event-menu {
+        max-width: 100%;
+        text-decoration: none;
+        color: white;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1.5rem;
+    }
+    .event-menu li{
+        padding: 0 2rem;
+        width: 80%;
+    }
+    .event-menu li a{
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: white;
+        font-family: "Mukta", sans-serif;
+    }
+    .event-menu li hr{
+        border: 1.5px solid #20B9C3;
+    }
+    .event-menu li a:hover{
+        color: #20B9C3;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1320px){
+    .event-menu {
+        max-width: 100%;
+        text-decoration: none;
+        color: white;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-gap: 1.5rem;
+    }
+    .event-menu li{
+        padding: 0 2rem;
+        width: 80%;
+    }
+    .event-menu li a{
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: white;
+        font-family: "Mukta", sans-serif;
+    }
+    .event-menu li hr{
+        border: 1.5px solid #20B9C3;
+    }
+    .event-menu li a:hover{
+        color: #20B9C3;
+        cursor: pointer;
+    }
+}
+

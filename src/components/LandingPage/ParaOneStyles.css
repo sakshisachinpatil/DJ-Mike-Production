@@ -1,0 +1,45 @@
+.para-one .para-one-head{
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+    font-weight: 600;
+}
+
+.para-one .para-one-content{
+    text-align: center; 
+    margin: 2rem 4rem 6rem 4rem; 
+    font-size: 1.5rem; 
+    line-height: 40px;
+}
+
+@media screen and (width <= 500px) {
+    .para-one .para-one-content{
+        font-size: 1rem; 
+        line-height: 30px;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+    .para-one .para-one-content{
+        font-size: 1.3rem; 
+        line-height: 35px;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+    .para-one .para-one-head{
+        font-size: 2rem; 
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .para-one .para-one-head{
+        font-size: 2rem; 
+    }
+    .para-one .para-one-content{
+        font-size: 1.5rem; 
+        line-height: 40px;
+    }
+}

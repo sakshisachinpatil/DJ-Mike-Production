@@ -1,0 +1,64 @@
+.service-text-one{
+    margin-top: 5rem;
+}
+
+.service-text-one h2{
+    color: #FB1583; 
+    font-weight: 500; 
+    font-family: "Raleway", sans-serif; 
+    font-size: 2rem; 
+    text-align: center;
+}
+
+.service-text-one p{
+    font-family: "Raleway", sans-serif; 
+    font-size: 1.3rem; 
+    text-align: center; 
+    margin-left: 5rem; 
+    margin-right: 5rem; 
+    margin-top: 2rem; 
+    margin-bottom: 5rem; 
+    line-height: 40px;
+}
+
+@media screen and (width <= 500px){
+    .service-text-one{
+        margin-top: 3rem;
+    }
+    .service-text-one h2{
+        font-weight: 500; 
+        font-size: 1.7rem; 
+    }
+    
+    .service-text-one p{
+        font-size: 1.1rem; 
+        line-height: 30px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px){
+    .service-text-one{
+        margin-top: 3rem;
+    }
+    .service-text-one h2{
+        font-weight: 500; 
+        font-size: 1.7rem; 
+    }
+    
+    .service-text-one p{
+        font-size: 1.1rem; 
+        line-height: 30px;
+    }
+}
+
+@media screen and (width > 1280px){
+    .service-text-one h2{
+        font-weight: 500; 
+        font-size: 2rem; 
+    }
+    
+    .service-text-one p{
+        font-size: 1.3rem; 
+        line-height: 40px;
+    }
+}
